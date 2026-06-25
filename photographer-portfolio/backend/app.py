@@ -14,13 +14,17 @@ app = Flask(__name__)
 # CORS CONFIGURATION
 # =========================
 
+# =========================
+# CORS CONFIGURATION
+# =========================
+
 CORS(
     app,
     resources={
         r"/api/*": {
             "origins": [
                 "http://localhost:5173",
-                "https://photographer-portfolio.vercel.app"
+                "https://photographer-portfolio-y95c.vercel.app/"
             ]
         }
     }
