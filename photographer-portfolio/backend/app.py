@@ -22,12 +22,11 @@ CORS(
     app,
     origins=[
         "http://localhost:5173",
-        "https://photographer-portfolio-y95c-dr6j16i2t-sarras-projects-681582f1.vercel.app"
+        "https://photographer-portfolio-y95c.vercel.app",
     ],
     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["Content-Type"]
 )
-
 
 # =========================
 # MYSQL CONFIGURATION
