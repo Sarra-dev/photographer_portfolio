@@ -4,8 +4,7 @@
 -- Run this in phpMyAdmin (Laragon) or MySQL CLI
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS photographer_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE photographer_db;
+USE defaultdb;
 
 -- ============================================================
 -- CLIENTS
