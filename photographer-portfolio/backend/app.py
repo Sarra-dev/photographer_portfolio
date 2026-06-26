@@ -39,7 +39,7 @@ app.config['MYSQL_HOST'] = os.getenv(
 )
 
 app.config['MYSQL_PORT'] = int(
-    os.getenv('MYSQL_PORT', 3306)
+    os.getenv('MYSQL_PORT', 17081)
 )
 
 app.config['MYSQL_USER'] = os.getenv(
