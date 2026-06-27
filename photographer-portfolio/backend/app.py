@@ -37,6 +37,10 @@ app.config['MYSQL_HOST'] = os.getenv(
     'localhost'
 )
 
+app.config['MYSQL_SSL'] = {
+    'ca': '/etc/secrets/ca.pem'
+}
+
 app.config['MYSQL_PORT'] = int(
     os.getenv('MYSQL_PORT', 17081)
 )
